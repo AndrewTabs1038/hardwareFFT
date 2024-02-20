@@ -65,7 +65,7 @@ always @(posedge clk) begin
 	//Cycle 1 -> Calculates the products 
 	imagP_one <= (B_in_r * twiddleF_i);
 	imagP_two <= (B_in_i * twiddleF_r);
-   realP_one <= (B_in_r * twiddleF_r);
+        realP_one <= (B_in_r * twiddleF_r);
 	realP_two <= (B_in_i * twiddleF_i);
 	
 	//Cycle 2 -> Turnicated addition
