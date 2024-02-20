@@ -3,8 +3,6 @@ module MU
 (
 input clk, roW, singlewrite,
 input [ADDR_WIDTH -1:0] A_addr, B_addr,
-//input [DATA_WIDTH -1:0] A_real_in, A_imag_in, B_real_in, B_imag_in,
-//output wire [DATA_WIDTH -1:0] A_real_out, A_imag_out, B_real_out, B_imag_out
 input [DATA_WIDTH -1:0] A_real_in, A_imag_in, B_real_in, B_imag_in,
 output wire [DATA_WIDTH -1:0] A_real_out, A_imag_out, B_real_out, B_imag_out
 );
