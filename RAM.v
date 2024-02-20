@@ -17,24 +17,13 @@ always @(posedge clk) begin
 		memory[A_addr] <= data_in_A;
 		data_out_A <= 16'hdead;
 		data_out_B <= 16'hdead;
-		//data_out_A <= {DATA_WIDTH{1'b0}};
-		//data_out_B <= {DATA_WIDTH{1'b0}};
-//		data_out_A <= memory[A_addr];
-//		data_out_B <= memory[B_addr];
 	end
 	else if(roW) begin
 		//writes
 		memory[A_addr] <= data_in_A;
 		memory[B_addr] <= data_in_B;
 		data_out_A <= 16'hdead;
-		data_out_B <= 16'hdead;
-
-		//data_out_A <= {DATA_WIDTH{1'b0}};
-		//data_out_B <= {DATA_WIDTH{1'b0}};
-		//data_out_A <= memory[A_addr];
-		//data_out_B <= memory[B_addr];
-
-	
+		data_out_B <= 16'hdead;	
 	end
 	
 	else begin
