@@ -2,7 +2,7 @@
 This is a hardware implemented Fast Fourier Transform (FFT) done in verilog. The architure for this project is disscused [in this paper](http://web.mit.edu/6.111/www/f2017/handouts/FFTtutorial121102.pdf). This project was given to me from a unversity professor as part of the university's honors college program. The purpose was to better understand popular DSP algorithms.
 
 # How it works 
-I will give a more detailed discription but for now, I will summerize the architecture of processing going on that is described in the previously mentioned paper. I will be refrencing several images taken from the same paper. I hope that for anyone wishing to implement the FFT in hardware will benifit from my summerization, even though the program is not currently working at your time of reading this. I will not discuss in detail about of the mathematical theory behind the FFT, only what is required to implement this in hardware.  
+I will give a more detailed discription but for now, I will summerize the architecture of processing going on that is described in the previously mentioned paper. I will be refrencing several images taken from the same paper. I will not discuss in detail about of the mathematical theory behind the FFT, only what is required to implement this in hardware.  
 
 ![image](https://github.com/AndrewTabs1038/hardwareFFT/assets/135442448/23695727-6b1a-48c1-822e-75d0facd90cc)
 
